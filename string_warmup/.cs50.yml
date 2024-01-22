@@ -1,7 +1,7 @@
 submit50:
   files: &submit50_files
     - !exclude "*"
-    - !include "*.py"
+    - !include "string_warmup.py"
     - !require string_warmup.py
   style: false
 

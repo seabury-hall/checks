@@ -1,8 +1,8 @@
 submit50:
   files: &submit50_files
     - !exclude "*"
-    - !include "float_warmup.py"
-    - !require float_warmup.py
+    - !include "fixme.py"
+    - !require fixme.py
   style: false
 
 check50:
