@@ -1,0 +1,9 @@
+submit50:
+  files: &submit50_files
+    - !exclude "*"
+    - !include "clickbait.py"
+    - !require clickbait.py
+  style: false
+
+check50:
+  files: *submit50_files
