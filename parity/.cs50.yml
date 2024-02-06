@@ -1,0 +1,9 @@
+submit50:
+  files: &submit50_files
+    - !exclude "*"
+    - !include "parity.py"
+    - !require parity.py
+  style: false
+
+check50:
+  files: *submit50_files

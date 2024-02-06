@@ -1,0 +1,9 @@
+submit50:
+  files: &submit50_files
+    - !exclude "*"
+    - !include "house.py"
+    - !require house.py
+  style: false
+
+check50:
+  files: *submit50_files
