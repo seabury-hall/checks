@@ -1,3 +1,6 @@
+
+*.pyc
+
 fixme/fixme.py
-fixme/__pycache__/__init__.cpython-310.pyc
 clickbait/clickbait.py
+match/match.py
