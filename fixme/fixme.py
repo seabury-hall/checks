@@ -8,8 +8,8 @@ def concatenate_strings(str1, str2):
 
 def main():
     # Get user input for two numbers
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
+    num1 = input("Enter the first number: ")
+    num2 = input("Enter the second number: ")
 
     # Call the add_numbers function and print the result
     sum_result = add_numbers(num1, num2)
