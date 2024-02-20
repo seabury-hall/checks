@@ -1,0 +1,9 @@
+submit50:
+  files: &submit50_files
+    - !exclude "*"
+    - !include "age_group.py"
+    - !require age_group.py
+  style: false
+
+check50:
+  files: *submit50_files
