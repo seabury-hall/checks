@@ -1,3 +1,6 @@
+# Task 0: make this code run without crashing! No need to make all the things work, just make it run first.
+
+
 # Task 1: Fix the syntax error in the print statement.
 print("------ Q1 ------")
 print("hello, world')
