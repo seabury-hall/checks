@@ -1,0 +1,13 @@
+submit50:
+  files: &submit50_files
+    - !exclude "*"
+    - !include "fixme2.py"
+    - !include "weather.py"
+    - !include "homework.py"
+    - !require fixme2.py
+    - !require weather.py
+    - !require homework.py
+  style: false
+
+check50:
+  files: *submit50_files
