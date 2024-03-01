@@ -4,9 +4,12 @@ submit50:
     - !include "fixme2.py"
     - !include "weather.py"
     - !include "homework.py"
+    - !include "conversion.py"
     - !require fixme2.py
     - !require weather.py
     - !require homework.py
+    - !require conversions.py
+    
   style: false
 
 check50:
