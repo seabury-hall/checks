@@ -1,7 +1,9 @@
-# Task: Create a function named 'suggest_clothing' that takes a string parameter 'weather'
-# Task: The function should RETURN a message suggesting appropriate clothing based on the given weather.
-# Task: Create a main function  that gets user input, calls the function to suiggest clothing, and prints the response.
-# Code should be structured like our other programs!
+# Task: Write a program that asks the user what the weather is like and tell them what to wear
+# You must have a function named 'suggest_clothing' that takes a string parameter 'weather'
+# The function should RETURN a message suggesting appropriate clothing based on the given weather.
+# You must have a main function that gets user input, calls the function to suggest clothing, and prints the response.
+# Code must use a MATCH statement and be structured like our other programs!
+
 # Here are the suggested clothing based on different weather conditions:
 # - Sunny: Wear light and breathable clothes, such as shorts, t-shirts, and sunglasses.
 # - Cloudy: Dress in layers with a light jacket or sweater, and comfortable pants or jeans.
