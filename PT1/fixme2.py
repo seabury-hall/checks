@@ -40,14 +40,14 @@ print()
 print("------ Q7 ------")
 x = input("What's x? ")
 y = input("What's y? ")
-print("TODO")
+print(x + y)
 print()
 
-# Task 8: Improve the calculator program to handle floating-point numbers.
+# Task 8: Improve the calculator program to handle floating-point (decimal) numbers.
 print("------ Q8 ------")
 x = input("What's x? ")
 y = input("What's y? ")
-print(TODO)
+print(x + y)
 print()
 
 # Task 9: Given a sentence with multiple occurrences of the word "apple" and "banana"
