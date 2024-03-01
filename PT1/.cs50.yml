@@ -8,7 +8,7 @@ submit50:
     - !require fixme2.py
     - !require weather.py
     - !require homework.py
-    - !require conversions.py
+    - !require conversion.py
     
   style: false
 
