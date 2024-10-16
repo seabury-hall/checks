@@ -1,0 +1,9 @@
+submit50:
+  files: &submit50_files
+    - !exclude "*"
+    - !include "daily13.c"
+    - !require daily13.c
+  style: false
+
+check50:
+  files: *submit50_files
