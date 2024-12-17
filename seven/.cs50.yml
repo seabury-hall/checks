@@ -1,8 +1,8 @@
 submit50:
   files: &submit50_files
     - !exclude "*"
-    - !include "seven.py"
-    - !require seven.py
+    - !include "seven-day-average.py"
+    - !require seven-day-average.py
   style: false
 
 check50:
