@@ -1,0 +1,10 @@
+
+submit50:
+    files: &submit50_files
+        - !exclude "*"
+        - !include "practice.c"
+        - !require practice.c
+    style: false
+
+check50:
+    files: *submit50_files
